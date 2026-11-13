@@ -28,10 +28,11 @@ jobs:
       - name: Build Tauri macOS M1 (.app standalone)
         run: npx tauri build --target aarch64-apple-darwin --bundles app
 
-      - name: Zip .app bundle
+      - name: Zip .app bundle with guide
         run: |
+          cp "CARA BUKA DI MACBOOK.txt" src-tauri/target/aarch64-apple-darwin/release/bundle/macos/
           cd src-tauri/target/aarch64-apple-darwin/release/bundle/macos
-          zip -r "Stock-Material-Dashboard-macOS-M1.zip" "Stock Material Dashboard.app"
+          zip -r "Stock-Material-Dashboard-macOS-M1.zip" "Stock Material Dashboard.app" "CARA BUKA DI MACBOOK.txt"
 
       - name: Upload macOS M1 .app Artifact
         uses: actions/upload-artifact@v4

@@ -1,0 +1,18 @@
+====================================================
+CARA MEMBUKA APLIKASI STOCK MATERIAL DI MACBOOK M1
+====================================================
+
+Jika saat pertama kali dibuka muncul peringatan keamanan dari macOS,
+ikuti langkah mudah berikut (hanya dilakukan 1 kali saja):
+
+1. Klik dua kali aplikasi "Stock Material Dashboard".
+2. Saat muncul kotak peringatan, klik tombol "OK" atau "Done" (Selesai).
+3. Buka "System Settings" / Pengaturan Sistem (ikon roda gigi di Dock).
+4. Di menu sebelah kiri, pilih "Privacy & Security" (Privasi & Keamanan).
+5. Scroll ke bagian paling bawah sampai melihat tulisan tentang
+   "Stock Material Dashboard", lalu klik tombol "Open Anyway" (Tetap Buka).
+6. Masukkan password MacBook atau gunakan sidik jari (Touch ID),
+   lalu klik "Open" (Buka).
+
+Selesai! Setelah itu aplikasi bisa langsung dibuka seperti biasa
+dengan klik dua kali.
